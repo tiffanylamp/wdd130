@@ -32,7 +32,7 @@ aside img {
     height: auto;
     border: #000;
     padding: 2rem;
-    box-shadow: #c3bfbf;
+    box-shadow: #333;
 }
 
 main img {
@@ -40,7 +40,7 @@ main img {
     height: auto;
     border: #000;
     padding: 2rem;
-    box-shadow: #c3bfbf;
+    box-shadow: #eee;
 }
 
 p {
