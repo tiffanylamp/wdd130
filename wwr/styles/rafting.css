@@ -87,7 +87,7 @@ main {
     top: 0;
     left: 0;
     z-index: -1;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 
 .hero h1 {
@@ -103,11 +103,10 @@ main {
 .hero article {
     position: relative;
     z-index: 1;
-    background-color: white;
+    background-color: rgba(176, 222, 235, 0.7);
     padding: 25px;
     margin: 0 auto;
     max-width: 700px;
-    border: 1px solid #ccc;
 }
 
 .hero article img {
