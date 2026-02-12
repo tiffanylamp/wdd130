@@ -224,3 +224,160 @@ footer p {
     width: 40px;
     height: 40px;
 }
+
+/* Contact Page Styles */
+
+.contact-info {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px;
+}
+
+.contact-info h1 {
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.map-container {
+    width: 100%;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Form Styles */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--text-dark);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--text-dark);
+}
+
+.contact-form fieldset label {
+    display: block;
+    margin: 8px 0;
+    font-weight: normal;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 8px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-weight: normal !important;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent1-color);
+}
+
+/* Employee Section */
+.employees {
+    margin: 40px 20px;
+    padding: 40px;
+    background-color: white;
+}
+
+.employees h2 {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: var(--text-dark);
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.employee-card {
+    text-align: center;
+    margin: 0;
+}
+
+.employee-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ddd;
+}
+
+.employee-card figcaption {
+    margin-top: 15px;
+    font-size: 1em;
+    color: var(--text-dark);
+}
