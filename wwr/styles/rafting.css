@@ -101,7 +101,7 @@ main {
 .hero article {
     position: absolute;
     z-index: 1;
-    bottom: 110px;
+    bottom: 130px;
     left: 50%;
     width: 90%;
     max-width: 700px;
