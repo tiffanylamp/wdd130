@@ -93,14 +93,19 @@ main {
     font-family: var(--heading-font);
     font-size: 3em;
     margin-bottom: 30px;
-    color: var(--text-light)
+    color: var(--text-light);
+    padding-top: 250px;
+
 }
 
 .hero article {
     position: absolute;
     z-index: 1;
-    bottom: 20px;
-    left: 20px;
+    bottom: 170px;
+    left: 50%;
+    width: 90%;
+    max-width: 700px;
+    transform: translateX(-50%);
     background-color: rgba(176, 222, 235, 0.7);
     padding: 25px;
     /* margin: 0 auto; */
@@ -707,12 +712,16 @@ footer p {
     flex-wrap: wrap;
 }
 
-.trips-cta p {
+.trips-cta h3 {
+    color: white;
+}
+
+/* .trips-cta p {
     color: var(--text-light);
     font-size: 1.05rem;
     font-weight: bold;
     margin: 0;
-}
+} */
 
 /* Trip Cards */
 .trip-listings {
